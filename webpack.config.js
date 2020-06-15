@@ -1,5 +1,6 @@
 /* eslint-disable */
 var path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   devtool: 'source-map',
@@ -10,6 +11,13 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     filename: 'app.js',
   },
+
+  // Testing things
+  // plugins: [
+  //   new webpack.ProvidePlugin({
+  //     AFRAME: 'aframe',
+  //   }),
+  // ],
 
   module: {
     rules: [
