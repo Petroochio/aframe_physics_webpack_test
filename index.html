@@ -6,18 +6,19 @@
   </head>
 
   <body>
-    <a-scene physics="debug: false" background="color: #FAFAFA">
-      <a-camera position="0 8 2"></a-camera>
+    <a-scene physics="debug: false" background="color: #222222">
+      <a-camera position="0 0 20"></a-camera>
+      <a-entity space-particles material="shader: particles;" position="0 0 0"></a-entity>
       <a-box static-body width="0.75" height="0.75" depth="0.75" move-circle position="-1 0.8 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
-      <a-sphere dynamic-body position="0 2.5 -4.1" radius="0.25" color="#EF2D5E" shadow></a-sphere>
-      <a-sphere dynamic-body position="0 2.1 -4" radius="0.25" color="#EF2D5E" shadow></a-sphere>
+      <!-- <a-sphere dynamic-body position="0 2.5 -4.1" radius="0.25" color="#EF2D5E" shadow></a-sphere>
+      <a-sphere dynamic-body position="0 2.1 -4" radius="0.25" color="#EF2D5E" shadow></a-sphere> -->
       
-      <a-plane static-body position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+      <!-- <a-plane static-body position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
       <a-plane static-body position="0 4 -4" rotation="90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
       <a-plane static-body position="0 2 -6" rotation="0 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
       <a-plane static-body position="-2 2 -4" rotation="0 90 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
       <a-plane static-body position="2 2 -4" rotation="0 -90 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
-      <a-plane static-body position="0 2 -2" rotation="-180 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+      <a-plane static-body position="0 2 -2" rotation="-180 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane> -->
     </a-scene>
   </body>
 </html>
